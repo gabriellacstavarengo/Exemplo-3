@@ -1,0 +1,13 @@
+# ============================================
+# DEPENDÊNCIAS / DEPENDENCIES
+# ============================================
+# Pasta node_modules contém todas as dependências do projeto
+# Não deve ser versionada pois pode ser recriada com 'npm install'
+node_modules/
+
+# Logs de debug do npm e yarn
+# Arquivos gerados durante erros de instalação
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
